@@ -1,0 +1,269 @@
+img.fire-emoji {
+  width: 16px;
+  height: 16px; }
+
+img.fire-emoji-large {
+  width: 24px;
+  height: 24px; }
+
+#toast-container {
+  margin-top: 4px; }
+  #toast-container > div.toast {
+    opacity: 1; }
+  #toast-container a {
+    text-decoration: underline;
+    font-style: italic; }
+
+.fire-blur {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -ms-filter: blur(2px);
+  -o-filter: blur(2px);
+  filter: blur(2px); }
+
+.fire-popup-modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100; }
+
+.fire-button {
+  cursor: pointer; }
+  .fire-button.fire-done {
+    filter: grayscale(100%);
+    opacity: 0.5; }
+  .fire-button .fire-emoji {
+    position: relative;
+    top: -2px; }
+
+.fire-popup {
+  width: 600px;
+  max-height: 500px;
+  position: fixed;
+  z-index: 100;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 2px #646464; }
+  .fire-popup .fire-popup-header {
+    min-height: 40px; }
+    .fire-popup .fire-popup-header a.button {
+      margin: 0; }
+      .fire-popup .fire-popup-header a.button.fire-metasmoke-button {
+        margin-right: 10px; }
+      .fire-popup .fire-popup-header a.button.fire-close-button, .fire-popup .fire-popup-header a.button.fire-metasmoke-button {
+        float: right;
+        margin-bottom: 0; }
+      .fire-popup .fire-popup-header a.button.fire-feedback-button {
+        float: left;
+        margin-right: 2px;
+        transition: all 0.2s ease; }
+        .fire-popup .fire-popup-header a.button.fire-feedback-button[disabled] {
+          cursor: no-drop;
+          opacity: 0.5; }
+        .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-tpu-, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-rude, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-tp- {
+          border: 1px solid #258800;
+          background-color: #258800;
+          background: -webkit-gradient(linear, left top, left bottom, from(#5eff22), to(#258800));
+          background: -moz-linear-gradient(top, #5eff22, #258800);
+          background: linear-gradient(to bottom, #5eff22, #258800); }
+          .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-tpu-.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-rude.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-tp-.fire-submitted {
+            text-decoration: underline; }
+          .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-tpu-.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-tpu-:hover, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-rude.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-rude:hover, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-tp-.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-tp-:hover {
+            -webkit-box-shadow: 0 -6px 6px 0 rgba(94, 255, 34, 0.5);
+            -moz-box-shadow: 0 -6px 6px 0 rgba(94, 255, 34, 0.5);
+            box-shadow: 0 -6px 6px 0 rgba(94, 255, 34, 0.5); }
+        .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-fp- {
+          border: 1px solid #cc0000;
+          background-color: #cc0000;
+          background: -webkit-gradient(linear, left top, left bottom, from(#ff6666), to(#cc0000));
+          background: -moz-linear-gradient(top, #ff6666, #cc0000);
+          background: linear-gradient(to bottom, #ff6666, #cc0000); }
+          .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-fp-.fire-submitted {
+            text-decoration: underline; }
+          .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-fp-.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-fp-:hover {
+            -webkit-box-shadow: 0 -6px 6px 0 rgba(255, 102, 102, 0.5);
+            -moz-box-shadow: 0 -6px 6px 0 rgba(255, 102, 102, 0.5);
+            box-shadow: 0 -6px 6px 0 rgba(255, 102, 102, 0.5); }
+        .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-naa- {
+          border: 1px solid #cc6d00;
+          background-color: #cc6d00;
+          background: -webkit-gradient(linear, left top, left bottom, from(#ffb866), to(#cc6d00));
+          background: -moz-linear-gradient(top, #ffb866, #cc6d00);
+          background: linear-gradient(to bottom, #ffb866, #cc6d00); }
+          .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-naa-.fire-submitted {
+            text-decoration: underline; }
+          .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-naa-.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-naa-:hover {
+            -webkit-box-shadow: 0 -6px 6px 0 rgba(255, 184, 102, 0.5);
+            -moz-box-shadow: 0 -6px 6px 0 rgba(255, 184, 102, 0.5);
+            box-shadow: 0 -6px 6px 0 rgba(255, 184, 102, 0.5); }
+        .fire-popup .fire-popup-header a.button.fire-feedback-button.focus, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-metasmoke {
+          border: 1px solid #0000cc;
+          background-color: #0000cc;
+          background: -webkit-gradient(linear, left top, left bottom, from(#6666ff), to(#0000cc));
+          background: -moz-linear-gradient(top, #6666ff, #0000cc);
+          background: linear-gradient(to bottom, #6666ff, #0000cc); }
+          .fire-popup .fire-popup-header a.button.fire-feedback-button.focus.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-metasmoke.fire-submitted {
+            text-decoration: underline; }
+          .fire-popup .fire-popup-header a.button.fire-feedback-button.focus.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.focus:hover, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-metasmoke.fire-submitted, .fire-popup .fire-popup-header a.button.fire-feedback-button.fire-metasmoke:hover {
+            -webkit-box-shadow: 0 -6px 6px 0 rgba(102, 102, 255, 0.5);
+            -moz-box-shadow: 0 -6px 6px 0 rgba(102, 102, 255, 0.5);
+            box-shadow: 0 -6px 6px 0 rgba(102, 102, 255, 0.5); }
+    .fire-popup .fire-popup-header .fire-site-logo {
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: inline-block;
+      height: 60px;
+      position: relative;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 30px;
+      color: #444;
+      padding: 0 0 0 60px;
+      line-height: 60px;
+      white-space: nowrap;
+      cursor: pointer;
+      text-decoration: none;
+      max-width: 440px;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .fire-popup .fire-popup-header .fire-popup-feedbackButtonContainer {
+      display: inline-block;
+      vertical-align: middle; }
+    .fire-popup .fire-popup-header .fire-popup-feedbackButtonGroup {
+      display: inline-block;
+      vertical-align: middle; }
+  .fire-popup .fire-popup-body {
+    max-height: 380px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px -3px #646464;
+    position: relative; }
+    .fire-popup .fire-popup-body .fire-report-info .fire-username {
+      float: right;
+      font-weight: normal;
+      margin-top: -17px; }
+      .fire-popup .fire-popup-body .fire-report-info .fire-username .fire-user-reputation {
+        font-size: 0.8em; }
+        .fire-popup .fire-popup-body .fire-report-info .fire-username .fire-user-reputation.fire-has-rep {
+          background-image: radial-gradient(ellipse at center, rgba(255, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 75%); }
+    .fire-popup .fire-popup-body .fire-reported-post {
+      padding: 10px;
+      margin: 0 -10px -10px -10px; }
+      .fire-popup .fire-popup-body .fire-reported-post.fire-deleted {
+        background-color: #f4eaea; }
+      .fire-popup .fire-popup-body .fire-reported-post img {
+        max-width: 100%; }
+        .fire-popup .fire-popup-body .fire-reported-post img[src^='http://placehold.it'] {
+          cursor: pointer; }
+      .fire-popup .fire-popup-body .fire-reported-post a {
+        font-weight: bold;
+        text-decoration: underline;
+        padding: 1px 5px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px -2px #646464;
+        display: inline-block; }
+      .fire-popup .fire-popup-body .fire-reported-post blockquote {
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #FFF8DC;
+        border-left: 2px solid #ffeb8e; }
+      .fire-popup .fire-popup-body .fire-reported-post li {
+        margin-left: 10px; }
+      .fire-popup .fire-popup-body .fire-reported-post h1 {
+        font-size: 21px; }
+      .fire-popup .fire-popup-body .fire-reported-post h2 {
+        font-size: 19px; }
+      .fire-popup .fire-popup-body .fire-reported-post h3 {
+        font-size: 17px; }
+      .fire-popup .fire-popup-body .fire-reported-post h1, .fire-popup .fire-popup-body .fire-reported-post h2, .fire-popup .fire-popup-body .fire-reported-post h3 {
+        line-height: 1.3;
+        margin: 0 0 1em; }
+    .fire-popup .fire-popup-body a .href {
+      display: none;
+      word-break: break-all; }
+    .fire-popup .fire-popup-body a:hover .href {
+      display: inline; }
+    .fire-popup .fire-popup-body a:hover .text {
+      display: none; }
+    .fire-popup .fire-popup-body pre {
+      margin-bottom: 1em;
+      width: auto;
+      max-height: 100px;
+      overflow: auto;
+      font-family: Fira Code, Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
+      font-size: 13px;
+      background-color: #eff0f1;
+      box-shadow: 0 0 10px -1px #646464;
+      border-radius: 3px;
+      padding: 6px 10px;
+      -webkit-transition: max-height 0.4s;
+      -moz-transition: max-height 0.4s;
+      transition: max-height 0.4s; }
+      .fire-popup .fire-popup-body pre.fire-expanded {
+        max-height: 400px; }
+      .fire-popup .fire-popup-body pre.fire-markdown {
+        max-height: none;
+        white-space: pre-wrap; }
+      .fire-popup .fire-popup-body pre code {
+        padding: 0; }
+    .fire-popup .fire-popup-body code {
+      font-family: Fira Code,Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+      font-size: 13px;
+      background-color: #eff0f1;
+      padding: 1px 5px; }
+  .fire-popup .fire-version-link {
+    margin: 2px 2px -14px 0;
+    float: right;
+    font-size: 0.8em; }
+  .fire-popup .fire-settings-button {
+    float: right;
+    margin: 0 -16px -20px 0;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 16px; }
+    .fire-popup .fire-settings-button:hover {
+      animation: spinner 0.6s linear infinite; }
+  .fire-popup .fire-popup-input {
+    padding: 3px 6px;
+    border-radius: 6px;
+    margin: 0 4px; }
+  .fire-popup .fire-position-select {
+    text-transform: capitalize; }
+  .fire-popup .fire-tooltip {
+    position: fixed;
+    background: #eee;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 0 #888;
+    border: 1px solid #bbb;
+    pointer-events: none;
+    z-index: 100;
+    white-space: pre-line;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    max-width: 50%;
+    cursor: pointer; }
+  .fire-popup#fire-settings .fire-popup-header h2 {
+    display: inline-block; }
+  .fire-popup#fire-settings .fire-settings-section {
+    width: 290px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px; }
+  .fire-popup#fire-settings #toastr_duration {
+    max-width: 50px;
+    margin-top: 4px; }
+
+.fire-popup.fire-readonly .fire-popup-header .fire-site-logo {
+  max-width: 475px; }
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg); } }
